@@ -1,6 +1,11 @@
+[![Python 3.9 Setup and Integration Test](https://github.com/nogibjj/VersionTest_YCLiu/actions/workflows/TestPython39.yml/badge.svg)](https://github.com/nogibjj/VersionTest_YCLiu/actions/workflows/TestPython39.yml)
+[![Python 3.8 Setup and Integration Test](https://github.com/nogibjj/VersionTest_YCLiu/actions/workflows/TestPython38.yml/badge.svg)](https://github.com/nogibjj/VersionTest_YCLiu/actions/workflows/TestPython38.yml)
+
+
 ## Python Version Testing Using Github Actions
 
 This repository demonstrates how to **leverage GitHub actions** to _**test**_ if the code is compatible with **different versions of python** setup.
+
 
 Below is an overview of the project:
 
