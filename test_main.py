@@ -1,7 +1,7 @@
-from main import printName
+from main import shortenStr
 
 def test_func():
-    assert printName("Bob") == "Hello Bob!"
+    assert shortenStr("Hello world!", "Hello ") == "world!"
 
 if __name__ == '__main__':
     test_func()

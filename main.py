@@ -1,3 +1,6 @@
-def printName(name):
-    print("Hello {}!".format(name))
-    return "Hello {}!".format(name)
+def shortenStr(str, prefix):
+    return str.removeprefix(prefix)
+
+
+
+
