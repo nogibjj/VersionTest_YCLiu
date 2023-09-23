@@ -9,7 +9,7 @@ This repository demonstrates how to **leverage GitHub actions** to _**test**_ co
 Below is an overview of the project:
 
 1. **Github Actions Setup to test different python versions**
-  <br>a. _.github/workflows/.ymlFiles_ : In the YAML(.yml) files, development environment was set up using **different versions of python** for later actions. The actions are triggered when pushed/ pulled to main branch. After setting up the environment, actions of **installing packages**, **linting**, **testing**, **formatting** would be executed in order (specified in Makefile). Below is an example code block for setting up python versions in a YAML file.
+  <br>a. _.github/workflows/.ymlFiles_ : In a YAML(.yml) file, development environments was set up using **different versions of python** for later actions. The actions are triggered when pushed/ pulled to main branch. After setting up the environment, actions of **installing packages**, **linting**, **testing**, **formatting** would be executed in order (specified in Makefile). Below is an example code block for setting up python versions in a YAML file.
 
 ```
 jobs:
