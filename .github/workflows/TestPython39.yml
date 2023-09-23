@@ -1,4 +1,4 @@
-name: Python application test with Github Actions
+name: Python 3.9 Setup and Integration Test
 on:
   push:
     branches: [ "main" ]
