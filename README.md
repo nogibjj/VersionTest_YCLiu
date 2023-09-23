@@ -4,7 +4,7 @@ This repository demonstrates how to **leverage GitHub actions** to **test** if t
 
 Below is an overview of the project:
 
-1. **Set Up Github Actions to test different python Versions**
+1. **Github Actions Setup to test different python versions**
   <br>a. Makefile: In the Makefile, actions were specified to **test** the scripts **with different versions of python**. The actions are triggered when pushed/ pulled to main branch. In addition to version testing, **installing packages**, **linting**, **testing**, **formatting** would be executed in order.
 
 2. **Example of problematic scripts across different python versions**
