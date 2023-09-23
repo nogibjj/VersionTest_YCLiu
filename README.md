@@ -6,7 +6,7 @@
 
 This repository demonstrates how to **leverage GitHub actions** to _**test**_ compatibility of scrpits with **different versions of python**.
 
-Below is an overview of the project:
+Below is an overview of the files in this project:
 
 1. **Github Actions Setup to test different python versions**
   <br>a. _.github/workflows/.ymlFiles_ : In a YAML(.yml) file, development environments was set up using **different versions of python** for later actions. The actions are triggered when pushed/ pulled to main branch. After setting up the environment, actions of **installing packages**, **linting**, **testing**, **formatting** would be executed in order (specified in Makefile). Below is an example code block for setting up python versions in a YAML file.
@@ -27,7 +27,7 @@ jobs:
    <br>b. _main.py_: main function of the **problematic script**.
    <br>c. _test_main.py_: test functions for the main function.
 
-3. **Other files for development environment settings**:
+3. **Other files for development environment settings**
   <br>d. _.devcontainer_: contains devcontainer (used CodeSpace python default), setting up the environment for development.
   <br>e. _.gitignore_: specifies information to ignore (used GitHub default).
   <br>f. _requirements.txt_: lists required packages for the project.
