@@ -1,6 +1,6 @@
 ## Python Version Testing Using Github Actions
 
-This repository demonstrates how to **leverage GitHub actions** to **test** if the code is compatible with **different versions of python** setup.
+This repository demonstrates how to **leverage GitHub actions** to **_test_** if the code is compatible with **different versions of python** setup.
 
 Below is an overview of the project:
 
@@ -19,4 +19,4 @@ Below is an overview of the project:
 4. **Description of the project**
    <br>g. **README**.md: THIS FILE, explaining the purpose of the directory.
 
-This repository demonstrates how **python scripts can function properly** on **one version** but **fail** to function with **another version**.
+This repository demonstrates how **python scripts can function properly** on **one version** but **_fail_** to function with **another version**.
