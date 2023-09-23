@@ -1,5 +1,5 @@
-def shortenStr(str, prefix):
-    return str.removeprefix(prefix)
+def shortenStr(string, prefix):
+    return string.removeprefix(prefix)
 
 
 
