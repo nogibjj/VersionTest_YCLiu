@@ -5,7 +5,6 @@
 
 This repository demonstrates how to **leverage GitHub actions** to _**test**_ if the code is compatible with **different versions of python** setup.
 
-
 Below is an overview of the project:
 
 1. **Github Actions Setup to test different python versions**
@@ -23,4 +22,5 @@ Below is an overview of the project:
 4. **Description of the project**
    <br>g. _README.md_: THIS FILE, explaining the purpose of the directory.
 
-This repository demonstrates how **python scripts can function properly** on **one version** but _**fail**_ to function with **another version**.
+From the status badges shown above, we can see that the **python scripts can function properly** on **python 3.9** but _**fail**_ to function with **pythonn 3.8**.
+
