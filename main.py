@@ -1,2 +1,3 @@
-def addNum(x, y):
-    return x + y
+def printName(name):
+    print("Hello {}!".format(name))
+    return "Hello {}!".format(name)

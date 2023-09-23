@@ -1,16 +1,6 @@
 #devops
-black
-click
-pytest
-pytest-cov
-pylint
-boto3
+black == '23.9.1'
+pytest == '7.4.2'
+pytest-cov == '4.1.0'
+pylint == '2.17.5'
 
-#web
-fastapi
-uvicorn
-
-#Datascience
-matplotlib
-numpy
-pandas
