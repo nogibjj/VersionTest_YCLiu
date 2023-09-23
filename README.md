@@ -3,7 +3,7 @@
 
 ## Python Version Testing Using Github Actions
 
-This repository demonstrates how to **leverage GitHub actions** to _**test**_ if the code is compatible with **different versions of python** setup.
+This repository demonstrates how to **leverage GitHub actions** to _**test**_ compatibility of scrpits with **different versions of python**.
 
 Below is an overview of the project:
 
