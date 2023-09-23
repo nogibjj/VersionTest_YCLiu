@@ -1,22 +1,22 @@
-[![Python application test with Github Actions](https://github.com/nogibjj/DETemplatePy/actions/workflows/main.yml/badge.svg)](https://github.com/nogibjj/DETemplatePy/actions/workflows/main.yml)
+## Python Version Testing Using Github Actions
 
-## Python template for Data Engineering
+This repository demonstrates how to leverage GitHub actions to test if the code is compatible with different **versions of python** setup.
 
-This is a python template repository doing the following:
+Below is an overview of the project:
 
-1. **Set up enviroment for development**:
-  <br>a. .devcontainer: contains devcontainer (used CodeSpace python default), setting up the environment for development.
-  <br>b. .gitignore: specifies information to ignore (used GitHub default).
-  <br>c. requirements.txt: lists required packages for the project.
+1. **Set Up Github Actions to test different python Versions**
+  <br>a. Makefile: In the Makefile, actions were specified to **test** the scripts **with different versions of python**. The actions are triggered when pushed/ pulled to main branch. In addition to version testing, **installing packages**, **linting**, **testing**, **formatting** would be executed in order.
 
-2. **Specify GitHub Actions and Timing**
-  <br>d. Makefile: when pushed/ pulled to main branch, install packages, then lint, test, format python files in the branch.
+2. **Example of problematic scripts across different python versions**
+   <br>b. main.py: main function of the **prblematic script**.
+   <br>c. test_main.py: test functions for the main function.
 
-3. **Provide example python function and test functions**
-   <br>e. main.py: main function.
-   <br>f. test_main.py: test functions for main function.
+3. **Other files for development environment settings**:
+  <br>d. .devcontainer: contains devcontainer (used CodeSpace python default), setting up the environment for development.
+  <br>e. .gitignore: specifies information to ignore (used GitHub default).
+  <br>f. requirements.txt: lists required packages for the project.
 
-4. **Provide an overview of the template**
+4. **Description of the project**
    <br>g. README.md: THIS FILE, explaining the purpose of the directory.
 
-The template can be applied to automate quality control for any future projects.
+This repository demonstrates how **python scripts can function properly** on **one version** but **fail** to function with **another version**.
