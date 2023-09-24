@@ -35,5 +35,5 @@ jobs:
 4. **Description of the project**
    <br>g. _README.md_: THIS FILE, explaining the purpose of the directory.
 
-From the status badges shown above, we can see that the **python scripts can function properly** on **python 3.10 and 3.9** but _**fail**_ to function with **python 3.8**.
+From the status badges shown above, we can see that the **python scripts can function properly** in **python 3.10 and 3.9** but _**fail**_ to function in **python 3.8**.
 
